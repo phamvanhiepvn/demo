@@ -1,0 +1,26 @@
+#main{
+  background-color: #ccc;
+}
+ul{
+  display: flex;
+  flex-flow: row wrap;
+  li.wrapperItem{
+    border-radius: 3px;
+    margin: 10px;
+    width: 30%;
+    background-color: white;
+
+    .itemImage{
+      img {
+        width: 100%
+      }
+    }
+    .itemTitle{
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 15px;
+      min-height: 75px;
+    }
+
+  }
+}
